@@ -14,7 +14,7 @@ for (list in lists) {
 // create a script tag
 let storyScript = document.createElement("script");
 storyScript.setAttribute("type", "text/javascript");
-storyScript.setAttribute("src", "getstory.js");
+storyScript.setAttribute("src", "https://raw.githubusercontent.com/AdelBeit/FileHosting/master/getstory.js");
 
 // store stories and href in local storage
 window.localStorage("stories") = stories;
